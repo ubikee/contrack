@@ -1,0 +1,88 @@
+.page6 {
+    --page-header-height: 4rem;
+
+    --page-nav-height: 4rem;
+
+    --page-menu-width: 24rem;
+    --page-menu-color: #111;
+    --page-menu-bgcolor: #f8f8fb;
+
+    --page-aside-color: #111;
+    --page-aside-bgcolor: #fff;
+    --page-footer-height: 3rem;
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.page6 > header {
+    border-bottom: solid 1px var(--divider-color);
+}
+
+.page6 > menu {
+    border-right: solid 1px var(--divider-color);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.page6 > main {
+    overflow-y: auto;
+    background-color: var(--paper-color);
+}
+
+.page6 > aside {
+    width: 20rem;
+    border-left: solid 1px var(--divider-color);
+    overflow-y: auto;
+}
+
+.workspace {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "nav nav nav"
+        "menu main aside"
+        "footer footer footer";
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: 4rem auto 1fr auto;
+}
+
+.workspace.reverse {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "nav nav nav"
+        "menu aside main"
+        "menu aside detail"
+        "footer footer footer";
+    grid-template-columns: auto auto 1fr;
+    grid-template-rows: 4rem auto 1fr auto;
+}
+
+.explorer {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header main aside"
+        "menu main aside"
+        "menu footer aside";
+}
+
+.explorer.page6 > header {
+    border-right: solid 1px var(--divider-color);
+    border-bottom: solid 0px var(--divider-color);
+    background-color: white;
+}
+
+.explorer.page6 > menu {
+    border-right: solid 1px var(--divider-color);
+    background-color: white;
+}
+
+.explorer.page6 > main {
+    border-right: solid 1px var(--divider-color);
+    background-color: #f8f8fb;
+}

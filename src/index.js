@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'ywana-core7/dist/index.css'
+import './css/page6.css';
+import 'react-vis/dist/style.css'
 
 ReactDOM.render(
   <React.StrictMode>
