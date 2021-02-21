@@ -1,6 +1,6 @@
 {
   "name": "contracts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "homepage": "https://github.com/ubikee/contrack",
   "dependencies": {
@@ -15,7 +15,7 @@
     "web-vitals": "^0.2.4",
     "ywana-core7": "0.0.48"
   },
-  "scripts": {    
+  "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
