@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/ubikee/contrack/static/css/main.8f9f739e.chunk.css",
-    "main.js": "/ubikee/contrack/static/js/main.82db4318.chunk.js",
-    "main.js.map": "/ubikee/contrack/static/js/main.82db4318.chunk.js.map",
-    "runtime-main.js": "/ubikee/contrack/static/js/runtime-main.10628e23.js",
-    "runtime-main.js.map": "/ubikee/contrack/static/js/runtime-main.10628e23.js.map",
-    "static/css/2.e873039f.chunk.css": "/ubikee/contrack/static/css/2.e873039f.chunk.css",
-    "static/js/2.eca5228c.chunk.js": "/ubikee/contrack/static/js/2.eca5228c.chunk.js",
-    "static/js/2.eca5228c.chunk.js.map": "/ubikee/contrack/static/js/2.eca5228c.chunk.js.map",
-    "static/js/3.dddea05e.chunk.js": "/ubikee/contrack/static/js/3.dddea05e.chunk.js",
-    "static/js/3.dddea05e.chunk.js.map": "/ubikee/contrack/static/js/3.dddea05e.chunk.js.map",
-    "index.html": "/ubikee/contrack/index.html",
-    "static/css/2.e873039f.chunk.css.map": "/ubikee/contrack/static/css/2.e873039f.chunk.css.map",
-    "static/css/main.8f9f739e.chunk.css.map": "/ubikee/contrack/static/css/main.8f9f739e.chunk.css.map",
-    "static/js/2.eca5228c.chunk.js.LICENSE.txt": "/ubikee/contrack/static/js/2.eca5228c.chunk.js.LICENSE.txt",
-    "static/media/material-design-icons.css": "/ubikee/contrack/static/media/MaterialIcons-Regular.fa3334fe.woff2"
+    "main.css": "/contrack/static/css/main.8f9f739e.chunk.css",
+    "main.js": "/contrack/static/js/main.114ccf88.chunk.js",
+    "main.js.map": "/contrack/static/js/main.114ccf88.chunk.js.map",
+    "runtime-main.js": "/contrack/static/js/runtime-main.be9e21aa.js",
+    "runtime-main.js.map": "/contrack/static/js/runtime-main.be9e21aa.js.map",
+    "static/css/2.c26bddcc.chunk.css": "/contrack/static/css/2.c26bddcc.chunk.css",
+    "static/js/2.529c406d.chunk.js": "/contrack/static/js/2.529c406d.chunk.js",
+    "static/js/2.529c406d.chunk.js.map": "/contrack/static/js/2.529c406d.chunk.js.map",
+    "static/js/3.dddea05e.chunk.js": "/contrack/static/js/3.dddea05e.chunk.js",
+    "static/js/3.dddea05e.chunk.js.map": "/contrack/static/js/3.dddea05e.chunk.js.map",
+    "index.html": "/contrack/index.html",
+    "static/css/2.c26bddcc.chunk.css.map": "/contrack/static/css/2.c26bddcc.chunk.css.map",
+    "static/css/main.8f9f739e.chunk.css.map": "/contrack/static/css/main.8f9f739e.chunk.css.map",
+    "static/js/2.529c406d.chunk.js.LICENSE.txt": "/contrack/static/js/2.529c406d.chunk.js.LICENSE.txt",
+    "static/media/material-design-icons.css": "/contrack/static/media/MaterialIcons-Regular.fa3334fe.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.10628e23.js",
-    "static/css/2.e873039f.chunk.css",
-    "static/js/2.eca5228c.chunk.js",
+    "static/js/runtime-main.be9e21aa.js",
+    "static/css/2.c26bddcc.chunk.css",
+    "static/js/2.529c406d.chunk.js",
     "static/css/main.8f9f739e.chunk.css",
-    "static/js/main.82db4318.chunk.js"
+    "static/js/main.114ccf88.chunk.js"
   ]
 }
