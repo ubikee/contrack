@@ -32,6 +32,9 @@ export const login = async (email, password) => {
     }
 }
 
+/**
+ * Retrieve Contracts
+ */
 export const contracts = async () => {
     try {
         const querySnapshot = await db.collection('contracts').get()
@@ -54,6 +57,9 @@ export const createContract = async (contract) => {
     }
 }
 
+/**
+ * Delete Contract
+ */
 export async function deleteContract(id) {
     try {
         const docRef = await db.collection('contracts').doc(id)
@@ -63,6 +69,9 @@ export async function deleteContract(id) {
     }
 }
 
+/**
+ * API
+ */
 const API = {
     auth,
     login,
